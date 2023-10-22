@@ -1,0 +1,134 @@
+.headbtn1{
+    border-radius: 20px;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    margin-right: 10px;
+    height: 60px;
+}
+
+
+.headbtn2{
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid black;
+    width: 100%;
+    margin-right: 20px;
+    height: 60px;
+
+
+}
+.headingtext{
+    font-weight: 800;
+    color: #000;
+    
+}
+.form-group{
+    margin-bottom: 15px;
+}
+.submitbtn{
+    background-color: orangered;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.termcondts{
+    color: gray;
+}
+
+.frm{
+    background-color: aqua;
+}
+
+.box1{
+border-radius: 20px;
+padding: 50px;
+    /* opacity: 0.6; */
+    /* filter: grayscale(50%); */
+    /* background-image: url("https://media.istockphoto.com/id/1418960998/photo/black-fabric.webp?b=1&s=170667a&w=0&k=20&c=7ys2K0OPpmJt4l5OoD_XHn0-XpNIRsa6yRSFirrzhRU="); */
+    background-image: url("https://i.stack.imgur.com/nvK7w.png");
+
+
+}
+.box2{
+    padding: 50px;
+    border-radius: 20px;
+}
+.floatabsolute{
+    float: right;
+    position: absolute;
+    display: flex; 
+    justify-content: flex-end; 
+
+}
+
+
+.slidercard{
+    
+    /* height: 30vh; */
+    overflow: hidden;
+    /* min-width: 320px; */
+     background-color: #3d3d3d; 
+     color: #fff; 
+     border-radius: 20px;
+     
+}
+
+.SwiperSlide{
+    background:none;
+}
+.profileimage{
+
+    width: 5px;
+    height: 5px;
+    border-radius: 50%; 
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.fotor.com%2Ffeatures%2Fai-profile-picture-generator%2F&psig=AOvVaw27e8knWul1KTWbPOOEaT3h&ust=1697993451873000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIjZ-tjMh4IDFQAAAAAdAAAAABAE");
+    background-position: center center;
+ 
+    background-size: cover;
+}
+.user {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.fotor.com%2Ffeatures%2Fai-profile-picture-generator%2F&psig=AOvVaw27e8knWul1KTWbPOOEaT3h&ust=1697993451873000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIjZ-tjMh4IDFQAAAAAdAAAAABAE");
+    margin-right: 10px;
+
+    object-fit: cover;
+  }
+
+ 
+  .circle-with-text {
+    /* justify-content: start; */
+    /* align-items: start; */
+    text-align: start;
+    display: flex;
+    font-size: 12px;
+    
+   }
+
+
+   .swiper-container {
+    background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.fotor.com%2Ffeatures%2Fai-profile-picture-generator%2F&psig=AOvVaw27e8knWul1KTWbPOOEaT3h&ust=1697993451873000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIjZ-tjMh4IDFQAAAAAdAAAAABAE");
+    background-size: cover;
+    filter: blur(5px);
+  }
+
+  .input-container {
+    position: relative;
+  }
+  
+  .input-container input {
+    padding-right: 30px;
+  }
+  
+  .password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
